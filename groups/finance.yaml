@@ -1,0 +1,21 @@
+Name: SG-FIN-READERS
+PreviousName: SG-FINANCE-READERS
+Description: Finance Readers
+PrimaryOwner: john.smith@mydomain.com
+SecondaryOwner: jane.doe@mydomain.com
+ContactEmail: finance-access@mydomain.com
+Users:
+  - alice.jones@mydomain.com
+  - bob.wilson@mydomain.com
+Members:
+  - SG-FIN-ANALYSTS
+ParentGroups:
+  - SG-FIN-ALL
+Groups:
+  - Name: SG-FIN-APPROVERS
+    Description: Finance Approvers
+    PrimaryOwner: john.smith@mydomain.com
+    SecondaryOwner: jane.doe@mydomain.com
+    ContactEmail: finance-approvers@mydomain.com
+    Users:
+      - approver.one@mydomain.com

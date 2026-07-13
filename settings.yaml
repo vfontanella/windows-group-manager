@@ -1,0 +1,7 @@
+Settings:
+  DomainController: dc01.mydomain.com
+  TargetOU: OU=MyOrg,OU=Managed Groups,DC=MyDomain,DC=com
+  GroupScope: Global
+  RemoveMissingGroups: true
+  ManagedDatabasePath: .\managed-groups.json
+  GroupsFolderPath: .\groups
